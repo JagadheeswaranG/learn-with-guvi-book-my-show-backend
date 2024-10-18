@@ -62,6 +62,6 @@ app.get("/movie/:id", async (req, res) => {
   }
 });
 
-app.post("/book-ticket", (req, res) => {});
+app.post("/book-ticket", (req, res) => { });
 
 app.listen(8000);
